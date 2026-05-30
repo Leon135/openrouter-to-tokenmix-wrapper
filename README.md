@@ -31,9 +31,9 @@ docker compose up -d
 
 | OpenRouter path | TokenMix path |
 | --- | --- |
-| `/chat/completions` | → `/v1/chat/completions` |
-| `/api/v1/chat/completions` | → `/v1/chat/completions` |
-| `/v1/chat/completions` | → `/v1/chat/completions` (passthrough) |
+| `/chat/completions` | `/v1/chat/completions` |
+| `/api/v1/chat/completions` | `/v1/chat/completions` |
+| `/v1/chat/completions` | `/v1/chat/completions` (passthrough) |
 
 ## Model naming
 
