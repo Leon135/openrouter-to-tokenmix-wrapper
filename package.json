@@ -1,0 +1,23 @@
+{
+  "name": "openrouter-to-tokenmix-wrapper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "OpenRouter-compatible API proxy for TokenMix",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "start": "bun src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src/"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@types/bun": "^1.2.0",
+    "eslint": "^9.0.0",
+    "typescript": "^5.7.0",
+    "typescript-eslint": "^8.0.0"
+  },
+  "dependencies": {
+    "@types/node": "^25.9.1"
+  }
+}
