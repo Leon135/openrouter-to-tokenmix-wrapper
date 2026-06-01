@@ -2,6 +2,8 @@
 
 Lightweight reverse proxy that translates the [OpenRouter](https://openrouter.ai) API format into [TokenMix](https://tokenmix.ai) API calls.
 
+As of 01.06.2026 TokenMix implemented this change. This repo is a compatibility layer if you encounter any problems ;)
+
 ## Usage
 
 ### Native
